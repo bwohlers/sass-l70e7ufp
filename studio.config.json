@@ -1,0 +1,12 @@
+{
+  "packages": {
+    "dir": "",
+    "menu": [
+      "introduction",
+      ["tokens", ["breakpoints", "colors"]],
+      ["mixins", ["a11y-mixins", "text-mixins"]],
+      ["components", ["button"]],
+      ["infrastructure", ["doc-layout"]]
+    ]
+  }
+}

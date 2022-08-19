@@ -1,0 +1,45 @@
+.btn {
+  background-color: var(--color-accent-fill-base);
+  color: var(--color-text-on-accent-base);
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  &:focus {
+    outline: 0.125rem solid var(--color-focus-ring);
+    outline-offset: 0.0625rem;
+  }
+
+  &:hover {
+    background-color: var(--color-accent-fill-hover);
+  }
+
+  &:active {
+    background-color: var(--color-accent-fill-active);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    background-color: var(--color-accent-fill-disabled);
+    color: var(--color-text-on-accent-disabled);
+  }
+
+  &-neutral {
+    background-color: var(--color-neutral-fill-base);
+    color: var(--color-text-on-neutral-base);
+
+    &:hover {
+      background-color: var(--color-neutral-fill-hover);
+    }
+
+    &:active {
+      background-color: var(--color-neutral-fill-active);
+    }
+
+    &:disabled {
+      background-color: var(--color-neutral-fill-disabled);
+    }
+  }
+}

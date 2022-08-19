@@ -1,0 +1,15 @@
+{
+  "name": "@backlight-dev/porter-sketch-ld8ku.sass-l70e7ufp",
+  "version": "0.0.0",
+  "description": "Sass Starter Kit for Backlight.dev",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "scripts": {
+    "serve": "npx backlight@latest serve exlblQHvZ9N9oryUlE14 --open"
+  },
+  "dependencies": {
+    "@divriots/dockit-core": "^0.7.2",
+    "lit": "^2.2.0"
+  }
+}
